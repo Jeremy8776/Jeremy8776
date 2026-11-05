@@ -61,6 +61,37 @@ def tile(shot, title, cap, anchor):
 for stem, shot, title, cap, anc in TILES:
     tile(shot, title, cap, anc).save(A / f"tile-{stem}.webp", "WEBP", quality=82, method=6)
 
+# Filmstrip under the banner: one small linked thumbnail per reel slide,
+# because an animated image can only carry a single link.
+SW, SH = 480, 240
+STRIP = [("reel-1.webp", "01", "ABOUT"), ("reel-2.webp", "02", "PANDORA"),
+         ("reel-3.webp", "03", "LU"), ("reel-4.webp", "04", "SPORTS")]
+
+
+def strip_thumb(shot, num, label):
+    im = Image.open(SHOTS / shot).convert("RGB")
+    s = max(SW / im.width, SH / im.height)
+    im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+    x0, y0 = (im.width - SW) // 2, (im.height - SH) // 2
+    im = im.crop((x0, y0, x0 + SW, y0 + SH)).convert("RGBA")
+    shade = Image.new("RGBA", (SW, SH))
+    sd = ImageDraw.Draw(shade)
+    for y in range(SH):
+        f = max(0.0, (y / SH - 0.35) / 0.65)
+        sd.line([(0, y), (SW, y)], fill=(0, 0, 0, int(215 * f)))
+    im = Image.alpha_composite(im, shade)
+    d = ImageDraw.Draw(im)
+    mono = ImageFont.truetype(MONO, 22)
+    spaced(d, (24, SH - 48), f"{num}  {label}", mono, 3, INK)
+    ax, ay = SW - 36, SH - 26
+    d.line([(ax, ay), (ax + 12, ay - 12)], fill=INK, width=2)
+    d.line([(ax + 4, ay - 12), (ax + 12, ay - 12), (ax + 12, ay - 4)], fill=INK, width=2)
+    return im.convert("RGB")
+
+
+for shot, num, label in STRIP:
+    strip_thumb(shot, num, label).save(A / f"slide-{num}.webp", "WEBP", quality=80, method=6)
+
 # (stem, icon file, label)
 TOKENS = [
     ("rust", "rust.svg", "Rust"),

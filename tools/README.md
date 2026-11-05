@@ -21,8 +21,10 @@ python tools/make_reel_video.py <clips dir> .
 portfolio reel. Get the current list from
 `https://jeremywalderwillows.co.uk/api/projects/reel` (each slide's `src`).
 Titles and captions are in `SLIDES` near the top of the script. If the reel
-order changes, update the numbered slide links in `README.md` to match
-(each slide's `cta.href` in the same API response).
+order changes, update the filmstrip under the banner to match: its
+thumbnails (`assets/slide-*.webp`, from `STRIP` in `make_tiles_tokens.py`)
+and their links in `README.md` (each slide's `cta.href` in the same API
+response).
 
 GitHub strips `<video>` from READMEs, so the banner is an animated WebP.
 Keep it under about 5 MB: lower `-q:v`, `FPS` or `W`/`H` if it grows.
@@ -41,6 +43,7 @@ python tools/make_tiles_tokens.py <shots dir> .
 | `armoze.webp` | portfolio, ARMOZE project, first image |
 | `dram.png` | `Jeremy8776/DRAM`, `docs/screenshots/Canvas-render.png` |
 | `aimodeldb-p.webp` | portfolio, AI Model Database project, first image |
+| `reel-1.webp` to `reel-4.webp` | portfolio reel, each slide's `poster` |
 | `icons/*.svg` | Simple Icons (CC0) for rust, typescript, python, threedotjs, blender; ComfyUI mark from `Comfy-Org/ComfyUI_frontend`, `packages/design-system/src/icons/comfy-c.svg` |
 
 Portfolio project images are listed at
