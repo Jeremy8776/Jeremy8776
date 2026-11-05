@@ -16,7 +16,7 @@ Art director who builds things in the evenings. Tools for creative work, given a
 <a href="https://github.com/Jeremy8776/AIModelDB"><img src="assets/tile-aimodeldb.webp" width="49.5%" alt="AIModelDB"></a>
 </p>
 
-<p>
+<p align="center">
 <img src="assets/tok-rust.svg" height="34" alt="Rust">
 <img src="assets/tok-typescript.svg" height="34" alt="TypeScript">
 <img src="assets/tok-python.svg" height="34" alt="Python">
