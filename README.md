@@ -1,12 +1,5 @@
 <a href="https://jeremywalderwillows.co.uk/?theme=reel"><img src="assets/reel.webp" width="100%" alt="Jeremy8776 showreel"></a>
 
-<p>
-<a href="https://jeremywalderwillows.co.uk/?theme=reel#about"><img src="assets/slide-01.webp" width="24.4%" alt="01 About"></a>
-<a href="https://jeremywalderwillows.co.uk/work/details/pandora-celebration-collection--mmwknucq?theme=reel"><img src="assets/slide-02.webp" width="24.4%" alt="02 Pandora"></a>
-<a href="https://jeremywalderwillows.co.uk/work/details/lu-synthetic-character-consistency-study--mps9frub?theme=reel"><img src="assets/slide-03.webp" width="24.4%" alt="03 Lu"></a>
-<a href="https://jeremywalderwillows.co.uk/work/details/white-label-sports-imagery--mmxft4tq?theme=reel"><img src="assets/slide-04.webp" width="24.4%" alt="04 Sports"></a>
-</p>
-
 <p align="center">
 <a href="https://jeremywalderwillows.co.uk"><img src="assets/link-site.svg" height="34" alt="jeremywalderwillows.co.uk"></a>
 <a href="https://instagram.com/jeremyjfww"><img src="assets/link-instagram.svg" height="34" alt="Instagram"></a>
