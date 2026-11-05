@@ -21,7 +21,7 @@ TW, TH = 960, 600
 
 # (file stem, screenshot, title, caption, vertical crop anchor 0=top 0.5=centre)
 TILES = [
-    ("craft", "craft.png", "Craft", "CONTRIBUTOR \u00b7 CREATIVE APP SUITE IN RUST", 0.0),
+    ("craft", "craft.png", "Craft Apps", "CONTRIBUTOR \u00b7 CREATIVE APP SUITE IN RUST", 0.0),
     ("armoze", "armoze.webp", "ARMOZE", "MAP ZONE EDITOR \u00b7 ARMA REFORGER", 0.4),
     ("dram", "dram.png", "DRAM", "LOCAL-FIRST AI DESKTOP", 0.5),
     ("aimodeldb", "aimodeldb-p.webp", "AIModelDB", "TRACK AND VALIDATE AI MODELS", 0.3),
