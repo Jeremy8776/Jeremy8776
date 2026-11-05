@@ -136,17 +136,18 @@ def link_btn(icon, label):
     vw, vh = float(vb[2]), float(vb[3])
     paths = "".join(re.findall(r"<path[^>]*/>|<path[^>]*>.*?</path>", src, re.S))
     paths = re.sub(r'\sfill="[^"]*"', "", paths)
-    h, size, fs = 48, 22, 15
+    # Same height, icon size and type size as the tool tokens.
+    h, size, fs = 34, 18, 13
     sc = size / max(vw, vh)
-    text_w = round(len(label) * fs * 0.55 + len(label) * 1.6)
-    w = 20 + size + 12 + text_w + 14 + 12 + 20
-    ax, ay = w - 20 - 12, h / 2 + 6
+    text_w = round(len(label) * fs * 0.55 + len(label) * 1.2)
+    w = 14 + size + 9 + text_w + 10 + 9 + 14
+    ax, ay = w - 14 - 9, h / 2 + 4.5
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}">
 <title>{label}</title>
-<rect width="{w}" height="{h}" rx="24" fill="#F2F0EC"/>
-<g transform="translate(20 {(h - vh * sc) / 2:.2f}) scale({sc:.4f})" fill="#000">{paths}</g>
-<text x="{20 + size + 12}" y="{h / 2 + 5}" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="{fs}" letter-spacing="1.6" fill="#000">{label.upper()}</text>
-<path d="M{ax} {ay}l12 -12M{ax + 4} {ay - 12}h8v8" stroke="#000" stroke-width="2" fill="none"/>
+<rect width="{w}" height="{h}" rx="17" fill="#F2F0EC"/>
+<g transform="translate(14 {(h - vh * sc) / 2:.2f}) scale({sc:.4f})" fill="#000">{paths}</g>
+<text x="{14 + size + 9}" y="21.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="{fs}" letter-spacing="1.2" fill="#000">{label.upper()}</text>
+<path d="M{ax} {ay}l9 -9M{ax + 3} {ay - 9}h6v6" stroke="#000" stroke-width="1.6" fill="none"/>
 </svg>"""
 
 

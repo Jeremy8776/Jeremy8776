@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="346" height="48" viewBox="0 0 346 48" role="img" aria-label="jeremywalderwillows.co.uk">
+<svg xmlns="http://www.w3.org/2000/svg" width="283" height="34" viewBox="0 0 283 34" role="img" aria-label="jeremywalderwillows.co.uk">
 <title>jeremywalderwillows.co.uk</title>
-<rect width="346" height="48" rx="24" fill="#F2F0EC"/>
-<g transform="translate(20 13.00) scale(0.6875)" fill="#000"><path d="M16.20 29L16.20 29Q13.72 29 11.84 28.05Q9.96 27.10 8.93 25.26Q7.91 23.41 7.91 20.78L7.91 20.78L12.84 20.78Q12.84 21.95 13.19 22.81Q13.54 23.67 14.25 24.13Q14.96 24.58 16.09 24.58L16.09 24.58Q17.19 24.58 17.86 24.16Q18.54 23.74 18.85 22.96Q19.16 22.17 19.16 21.08L19.16 21.08L19.16 3L24.09 3L24.09 21.08Q24.09 24.91 21.95 26.96Q19.82 29 16.20 29Z"/></g>
-<text x="54" y="29.0" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" letter-spacing="1.6" fill="#000">JEREMYWALDERWILLOWS.CO.UK</text>
-<path d="M314 30.0l12 -12M318 18.0h8v8" stroke="#000" stroke-width="2" fill="none"/>
+<rect width="283" height="34" rx="17" fill="#F2F0EC"/>
+<g transform="translate(14 8.00) scale(0.5625)" fill="#000"><path d="M16.20 29L16.20 29Q13.72 29 11.84 28.05Q9.96 27.10 8.93 25.26Q7.91 23.41 7.91 20.78L7.91 20.78L12.84 20.78Q12.84 21.95 13.19 22.81Q13.54 23.67 14.25 24.13Q14.96 24.58 16.09 24.58L16.09 24.58Q17.19 24.58 17.86 24.16Q18.54 23.74 18.85 22.96Q19.16 22.17 19.16 21.08L19.16 21.08L19.16 3L24.09 3L24.09 21.08Q24.09 24.91 21.95 26.96Q19.82 29 16.20 29Z"/></g>
+<text x="41" y="21.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1.2" fill="#000">JEREMYWALDERWILLOWS.CO.UK</text>
+<path d="M260 21.5l9 -9M263 12.5h6v6" stroke="#000" stroke-width="1.6" fill="none"/>
 </svg>
