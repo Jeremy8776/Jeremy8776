@@ -1,4 +1,4 @@
-<a href="https://jeremywalderwillows.co.uk/?theme=reel"><img src="assets/reel.svg" width="100%" alt="Jeremy8776 showreel"></a>
+<a href="https://jeremywalderwillows.co.uk/?theme=reel"><img src="assets/reel.webp" width="100%" alt="Jeremy8776 showreel"></a>
 
 Art director who builds things in the evenings. Tools for creative work, given away.
 
