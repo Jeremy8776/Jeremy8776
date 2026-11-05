@@ -13,7 +13,7 @@
 </p>
 
 <p>
-<a href="https://github.com/storytold"><img src="assets/tile-craft.webp" width="49.5%" alt="Craft"></a>
+<a href="https://github.com/storytold"><img src="assets/tile-craft.webp" width="49.5%" alt="CraftApps"></a>
 <a href="https://github.com/Jeremy8776/ARMOZE-Map-Editor"><img src="assets/tile-armoze.webp" width="49.5%" alt="ARMOZE"></a>
 <a href="https://github.com/Jeremy8776/DRAM"><img src="assets/tile-dram.webp" width="49.5%" alt="DRAM"></a>
 <a href="https://github.com/Jeremy8776/AIModelDB"><img src="assets/tile-aimodeldb.webp" width="49.5%" alt="AIModelDB"></a>
