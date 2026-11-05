@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" width="620" height="340" role="img" aria-label="Craft">
-<title>Craft</title>
-<rect width="620" height="340" rx="6" fill="#1d2a33"/>
-<text x="28" y="278" font-family="'Gill Sans MT','Gill Sans','Avenir Next',Optima,sans-serif" font-size="40" fill="#F2F0EC">Craft</text>
-<text x="30" y="310" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="2" fill="#F2F0EC" opacity=".7">CONTRIBUTOR · CREATIVE TOOLS IN RUST</text>
-<text x="592" y="44" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="2" fill="#F2F0EC" text-anchor="end" opacity=".7">VIEW ↗</text>
-</svg>
