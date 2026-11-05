@@ -7,7 +7,10 @@
 <a href="https://jeremywalderwillows.co.uk/work/details/white-label-sports-imagery--mmxft4tq?theme=reel"><img src="assets/slide-04.webp" width="24.4%" alt="04 Sports"></a>
 </p>
 
-Art director who builds things in the evenings. Tools for creative work, given away.
+<p align="center">
+<a href="https://jeremywalderwillows.co.uk"><img src="assets/link-site.svg" height="34" alt="jeremywalderwillows.co.uk"></a>
+<a href="https://instagram.com/jeremyjfww"><img src="assets/link-instagram.svg" height="34" alt="Instagram"></a>
+</p>
 
 <p>
 <a href="https://github.com/storytold"><img src="assets/tile-craft.webp" width="49.5%" alt="Craft"></a>
@@ -28,7 +31,4 @@ Art director who builds things in the evenings. Tools for creative work, given a
 <!-- Live card from streak-stats.demolab.com (external service, updates on its own). -->
 <p><img src="https://streak-stats.demolab.com?user=Jeremy8776&card_width=840&card_height=180&hide_border=true&background=000000&stroke=F2F0EC40&ring=F2F0EC&fire=F2F0EC&currStreakNum=F2F0EC&sideNums=F2F0EC&currStreakLabel=F2F0EC&sideLabels=BDBAB3&dates=8D8A84&date_format=j%20M%5B%20Y%5D" width="100%" alt="Contribution streak"></p>
 
-<p align="center">
-<a href="https://jeremywalderwillows.co.uk"><img src="assets/link-site.svg" height="34" alt="jeremywalderwillows.co.uk"></a>
-<a href="https://instagram.com/jeremyjfww"><img src="assets/link-instagram.svg" height="34" alt="Instagram"></a>
-</p>
+
