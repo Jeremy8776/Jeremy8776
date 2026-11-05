@@ -28,4 +28,7 @@ Art director who builds things in the evenings. Tools for creative work, given a
 <!-- Live card from streak-stats.demolab.com (external service, updates on its own). -->
 <p><img src="https://streak-stats.demolab.com?user=Jeremy8776&card_width=840&card_height=180&hide_border=true&background=000000&stroke=F2F0EC40&ring=F2F0EC&fire=F2F0EC&currStreakNum=F2F0EC&sideNums=F2F0EC&currStreakLabel=F2F0EC&sideLabels=BDBAB3&dates=8D8A84&date_format=j%20M%5B%20Y%5D" width="100%" alt="Contribution streak"></p>
 
-<sub><a href="https://jeremywalderwillows.co.uk">JEREMYWALDERWILLOWS.CO.UK ↗</a> &nbsp; <a href="https://instagram.com/jeremyjfww">INSTAGRAM ↗</a></sub>
+<p align="center">
+<a href="https://jeremywalderwillows.co.uk"><img src="assets/link-site.svg" height="48" alt="jeremywalderwillows.co.uk"></a>
+<a href="https://instagram.com/jeremyjfww"><img src="assets/link-instagram.svg" height="48" alt="Instagram"></a>
+</p>

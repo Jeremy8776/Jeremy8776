@@ -125,5 +125,33 @@ def token(icon, label):
 for stem, icon, label in TOKENS:
     (A / f"tok-{stem}.svg").write_text(token(icon, label), encoding="utf-8")
 
+# Footer link buttons: bigger than the tokens, solid ink fill so they read
+# as the page's call to action. jww.svg is the portfolio's own favicon.
+LINKS = [("site", "jww.svg", "jeremywalderwillows.co.uk"), ("instagram", "instagram.svg", "Instagram")]
+
+
+def link_btn(icon, label):
+    src = (SHOTS / "icons" / icon).read_text(encoding="utf-8")
+    vb = re.search(r'viewBox="([^"]+)"', src).group(1).split()
+    vw, vh = float(vb[2]), float(vb[3])
+    paths = "".join(re.findall(r"<path[^>]*/>|<path[^>]*>.*?</path>", src, re.S))
+    paths = re.sub(r'\sfill="[^"]*"', "", paths)
+    h, size, fs = 48, 22, 15
+    sc = size / max(vw, vh)
+    text_w = round(len(label) * fs * 0.55 + len(label) * 1.6)
+    w = 20 + size + 12 + text_w + 14 + 12 + 20
+    ax, ay = w - 20 - 12, h / 2 + 6
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{label}">
+<title>{label}</title>
+<rect width="{w}" height="{h}" rx="24" fill="#F2F0EC"/>
+<g transform="translate(20 {(h - vh * sc) / 2:.2f}) scale({sc:.4f})" fill="#000">{paths}</g>
+<text x="{20 + size + 12}" y="{h / 2 + 5}" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="{fs}" letter-spacing="1.6" fill="#000">{label.upper()}</text>
+<path d="M{ax} {ay}l12 -12M{ax + 4} {ay - 12}h8v8" stroke="#000" stroke-width="2" fill="none"/>
+</svg>"""
+
+
+for stem, icon, label in LINKS:
+    (A / f"link-{stem}.svg").write_text(link_btn(icon, label), encoding="utf-8")
+
 for p in sorted(A.glob("t*")):
     print(f"{p.stat().st_size:>8}  {p.name}")
