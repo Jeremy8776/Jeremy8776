@@ -41,7 +41,7 @@ python tools/make_tiles_tokens.py <shots dir> .
 |------|--------|
 | `craft.png` | `storytold/craft-launcher`, `docs/screenshots/artcraft-launcher-grid.png` |
 | `armoze.webp` | portfolio, ARMOZE project, first image |
-| `dram.png` | `Jeremy8776/DRAM`, `docs/screenshots/Canvas-render.png` |
+| `veil.png` | `Jeremy8776/veil`, `docs/images/call.png` |
 | `aimodeldb-p.webp` | portfolio, AI Model Database project, first image |
 | `reel-1.webp` to `reel-4.webp` | portfolio reel, each slide's `poster` |
 | `icons/*.svg` | Simple Icons (CC0) for rust, typescript, python, threedotjs, blender; ComfyUI mark from `Comfy-Org/ComfyUI_frontend`, `packages/design-system/src/icons/comfy-c.svg` |
